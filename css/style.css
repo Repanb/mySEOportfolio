@@ -394,7 +394,7 @@ a {
 #particles-js {
     /* height: 100%; */
     background-image: linear-gradient(#baf0e1, #7473c2);
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 
 }
 
@@ -411,7 +411,7 @@ a {
     border-radius: 50%;
 }
 
-#particles-js p,
+#particles-js p,#particles-js
 h1 {
     color: azure;
     font-size: 3em;
@@ -427,8 +427,7 @@ h1 {
 
 @media(max-width: 910px) {
 
-    #particles-js p,
-    h1 {
+    #particles-js p,#particles-js h1 {
         font-size: 2em;
         margin-bottom: 10px;
     }
