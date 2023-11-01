@@ -1,3 +1,4 @@
+
 function addClass() {
     document.body.classList.add("sent");
 }

@@ -11,3 +11,17 @@ font awesome
 <i class="fa-brands fa-facebook"></i>
 <i class="fa-solid fa-envelope"></i>
 <i class="fa-brands fa-apple"></i>
+
+transition: opacity .5s linear,visibility .5s linear;
+
+
+
+/*
+@keyframes pushLetter {
+  0% {transform: translateY(-8rem) scale(0.3, 0.5);}
+  50% {transform: translateY(-8rem) scale(0.3, 0.5);}
+  90% {transform: translateY(-8.5rem) scale(0.3, 0.5);}
+  100% {transform: translateY(-8rem) scale(0.3, 0.5);}
+}
+*/
+

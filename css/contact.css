@@ -4,6 +4,8 @@
 /*================================
  problem form and nav bar er 
  ============================== */
+@use postcss-nested;
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script:400,700);
 
 * {
     box-sizing: border-box;
@@ -31,15 +33,16 @@ h1 {
 }
 
 .welcome-text {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 3rem;
+    font-size: 2.5rem;
+    position: relative;
+    top: 8vh;
+    margin: auto;
 }
 
-small {
-    display: block;
-    padding: 1rem 0;
-    font-size: 0.8rem;
-    transition: opacity 0.33s;
+@media (max-width: 610px) {
+    .welcome-text {
+        font-size: 1.5rem;
+    }
 }
 
 textarea,
@@ -111,6 +114,13 @@ textarea:focus {
     width: 30rem;
     margin: auto;
     perspective: 60rem;
+}
+
+@media (max-width: 610px) {
+    .letter {
+        width: 20rem;
+        left: -80px;
+    }
 }
 
 .side {
@@ -199,7 +209,7 @@ textarea:focus {
     & .letter {
         animation: scaleLetter 1s forwards ease-in
             /*,
-               pushLetter 0.5s 1.33s forwards ease-out*/
+                pushLetter 0.5s 1.33s forwards ease-out*/
         ;
     }
 
@@ -226,13 +236,14 @@ textarea:focus {
         transform: translateY(12rem);
     }
 
-    & small {
-        opacity: 0;
+    & .welcome-text {
+        display: none;
     }
 }
 
 .centered {
     position: absolute;
+    top: 150px;
     left: 0;
     right: 0;
     margin: 1rem auto;
@@ -307,9 +318,8 @@ textarea:focus {
 */
 .bottom {
     position: relative;
-    top: 450px;
-    margin: 20px;
-
+    margin: 20px auto;
+    top: 70vh;
 }
 
 .bottom p {
@@ -339,4 +349,11 @@ textarea:focus {
 
 .list-item img {
     width: 30px;
+}
+
+footer {
+    position: absolute;
+    top: 95.5vh;
+    width: 100%;
+    text-align: center;
 }
