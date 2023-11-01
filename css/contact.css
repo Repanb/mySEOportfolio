@@ -18,7 +18,7 @@ body {
     color: #4e5e72;
     text-align: center;
     font-family: monospace;
-    overflow: hidden;
+
 }
 
 h1,
@@ -247,6 +247,12 @@ textarea:focus {
     left: 0;
     right: 0;
     margin: 1rem auto;
+}
+
+
+.contact-section{
+    margin-top: 80px;
+
 }
 
 @keyframes closeLetter {

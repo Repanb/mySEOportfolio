@@ -415,8 +415,13 @@ a {
     border-radius: 50%;
 }
 
+<<<<<<< HEAD
 #particles-js p,
 #particles-js h1 {
+=======
+#particles-js p,#particles-js
+h1 {
+>>>>>>> 4940c6273ad856e1dc74d27febb578d4a1f1d6cb
     color: azure;
     font-size: 3em;
     text-align: center;
@@ -431,8 +436,12 @@ a {
 
 @media(max-width: 910px) {
 
+<<<<<<< HEAD
     #particles-js p,
     #particles-js h1 {
+=======
+    #particles-js p,#particles-js h1 {
+>>>>>>> 4940c6273ad856e1dc74d27febb578d4a1f1d6cb
         font-size: 2em;
         margin-bottom: 10px;
     }
