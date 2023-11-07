@@ -18,8 +18,7 @@ body {
 }
 
 /*================================================
-Navbar Iphone SE, pixel 7, galaxy 8+, s20 ultra,
-fold, A51,14 pro max, ipad Air, surface duo, nest hub,
+Navbar 
 =================================================*/
 
 #navbar {
@@ -439,7 +438,7 @@ fold, A51,14 pro max, ipad Air, surface duo, nest hub,
     margin: auto;
     top: 50%;
     transform: translateY(-50%);
-    margin-left: 5%;
+    margin-left: 3%;
     /*left: 50%;
     transform: translate(-50%, -50%); */
 }
@@ -470,9 +469,15 @@ fold, A51,14 pro max, ipad Air, surface duo, nest hub,
     border-radius: 50%;
 }
 
-@media (max-width: 410px) {
+@media (max-width: 1070px) {
     #particles-js .my-img {
-        max-width: 75%;
+        max-width: 30%;
+    }
+}
+
+@media (max-width: 430px) {
+    #particles-js .my-img {
+        max-width: 65%;
     }
 }
 
@@ -486,7 +491,7 @@ fold, A51,14 pro max, ipad Air, surface duo, nest hub,
 }
 
 
-@media(max-width: 910px) {
+@media(max-width: 1070px) {
     .hero-txt {
         font-size: 2rem;
     }
