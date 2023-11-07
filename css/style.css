@@ -434,24 +434,24 @@ Navbar
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* margin: auto; */
+    margin-left: 5%;
     position: absolute;
-    margin: auto;
     top: 50%;
     transform: translateY(-50%);
-    margin-left: 3%;
-    /*left: 50%;
+    /* left: 50%;
     transform: translate(-50%, -50%); */
 }
 
 @media (min-width: 1024px) and (max-width: 1280px) {
     .img-txt-container {
-        margin-left: 0;
+        margin-left: -2%;
     }
 }
 
 @media (min-width: 821px) and (max-width: 1023px) {
     .img-txt-container {
-        margin-left: -5%;
+        margin-left: -10%;
     }
 }
 
@@ -469,9 +469,9 @@ Navbar
     border-radius: 50%;
 }
 
-@media (max-width: 1070px) {
+@media (max-width: 1020px) {
     #particles-js .my-img {
-        max-width: 30%;
+        max-width: 50%;
     }
 }
 
@@ -485,7 +485,7 @@ Navbar
     color: white;
     font-size: 2.5rem;
     text-align: center;
-    margin: auto;
+    /* margin: auto; */
     padding: 20px;
     overflow: hidden;
 }
