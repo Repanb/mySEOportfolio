@@ -1,0 +1,41 @@
+.blog-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: aquamarine;
+}
+
+
+
+.blog-container {
+    display: flex;
+    box-sizing: border-box;
+    max-width: 80%;
+    margin: 80px auto 0;
+    gap: 10px;
+
+}
+
+.topic-heading {
+    background-color: #F8F9FA;
+    width: 20%;
+    padding: 5px;
+
+}
+
+.topic-body {
+    width: 50%;
+    background-color: whitesmoke;
+
+}
+
+.blogs-list {
+    background-color: rgb(244, 241, 236);
+    width: 30%;
+}
+
+.img-fluid {
+    width: 100px !important;
+    height: 100px !important;
+}

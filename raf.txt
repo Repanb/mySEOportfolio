@@ -15,7 +15,13 @@ font awesome
 transition: opacity .5s linear,visibility .5s linear;
 
 
+.img-txt-container {
 
+    /* margin: auto; */
+
+    /* left: 50%;
+    transform: translate(-50%, -50%); */
+}
 /*
 @keyframes pushLetter {
   0% {transform: translateY(-8rem) scale(0.3, 0.5);}

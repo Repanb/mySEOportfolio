@@ -3,7 +3,15 @@
 /* Responsive Toggle Navigation =============================================*/
 let menuIcon = document.querySelector('.menuIcon');
 let nav = document.querySelector('.overlay-menu');
+// let navColor = document.getElementById('navbar');
 
+// navColor.addEventListener('scroll', () => {
+//     if (window.scroll > 100) {
+//         navColor.style.backgroundColor = 'rgba(255, 255, 255, 0.9)';
+//     } else {
+//         navColor.style.backgroundColor = 'rgba(255, 255, 255, 0.1)';
+//     }
+// })
 menuIcon.addEventListener('click', () => {
     if (nav.style.transform != 'translateX(0%)') {
         nav.style.transform = 'translateX(0%)';
@@ -25,6 +33,7 @@ toggleIcon.addEventListener('click', () => {
         toggleIcon.className = 'menuIcon';
     }
 });
+
 
 //prevent right click======================================
 
